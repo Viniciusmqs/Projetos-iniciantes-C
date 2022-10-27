@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+	
+	int i;
+	double 	n1,n2;
+	
+	for(i=0;i<3;i++){
+		printf("Insira a nota da primeira prova: \n");
+		scanf("%lf",&n1);
+	
+		printf("Insira a nota da segunda prova: \n");
+		scanf("%lf",&n2);
+	
+		printf("NOTA 1 : %2.lf\n",n1);
+		printf("NOTA 2 : %2.lf\n",n2);
+		printf("MEDIA : %2.lf\n",(n1+n2)/2);
+	
+	}
+	
+//	printf("Insira a nota da primeira prova: \n");
+//	scanf("%lf",&n1);
+//	
+//	printf("Insira a nota da segunda prova: \n");
+//	scanf("%lf",&n2);
+//	
+//	printf("NOTA 1 : %2.lf\n",n1);
+//	printf("NOTA 2 : %2.lf\n",n2);
+//	printf("MEDIA : %2.lf\n",(n1+n2)/2);
+		
+	
+	
+	
+	
+	return 0;
+}
